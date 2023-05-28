@@ -81,7 +81,7 @@ def get_header():
 if __name__ == '__main__':
     headers = get_header()
     output = ""
-    communities = ["AskMiddleEast", "worldnews"]
+    communities = ["AskMiddleEast", "worldnews", "Pakistan"]
     for community in communities:
         after_keyword = ""
         for page in range(10):

@@ -9,7 +9,7 @@ Download the model in the `model` directory from [here](https://drive.google.com
 Run `python sample.py` to generate the text. You can change the prompt by changing the `prompt` variable value in `sample.py`
 
 ### Dataset
-For more details on the dataset generation, checkout the code in the `dataset_generation` directory.
+Data is collected from Pakistan, AskMiddleEast and WorldNews Reddit communities from last year until 25th May 2023. For more details on the dataset generation, checkout the code in the `dataset_generation` directory.
 
 ### Training
 To understand how finetuning works, please refer to Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT) project.
