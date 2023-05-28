@@ -8,6 +8,11 @@ Download the model in the `model` directory from [here](https://drive.google.com
 
 Run `python sample.py` to generate the text. You can change the prompt by changing the `prompt` variable value in `sample.py`
 
+Run `python app.py` to run gradio app locally.
+
+### Example
+![Example](example.jpg)
+
 ### Dataset
 Data is collected from Pakistan, AskMiddleEast and WorldNews Reddit communities from last year until 25th May 2023. For more details on the dataset generation, checkout the code in the `dataset_generation` directory.
 
