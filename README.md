@@ -21,5 +21,5 @@ Blue = Validation loss
 Orange = Training Loss
 ![validation and train loss](valid_train_loss.png)
 
-![validation loss](validation loss.png)
+![validation loss](validation_loss.png)
 
