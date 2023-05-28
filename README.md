@@ -8,6 +8,18 @@ Download the model in the `model` directory from [here](https://drive.google.com
 
 Run `python sample.py` to generate the text. You can change the prompt by changing the `prompt` variable value in `sample.py`
 
+### Dataset
 For more details on the dataset generation, checkout the code in the `dataset_generation` directory.
 
+### Training
 To understand how finetuning works, please refer to Andrej Karpathy, [nanoGPT](https://github.com/karpathy/nanoGPT) project.
+
+The loss for validation and training is attached.
+#### Valid/Train Loss
+Blue = Validation loss 
+
+Orange = Training Loss
+![validation and train loss](valid_train_loss.png)
+
+![validation loss](validation loss.png)
+
