@@ -23,3 +23,7 @@ Orange = Training Loss
 
 ![validation loss](validation_loss.png)
 
+### Room for Improvement
+When you will test it, you will realize that model "hallucinates" a lot, which is a genuine problem with the LLMs so far. Besides, moving from GPT2 to GPT3/4 will significantly improve the quality of generated texts.
+
+Besides, finetuning on even a larger dataset may help. In the regard, we can collect data from large number of Reddit communities and maybe also from Twitter. Furthermore, in the pretraining phase, GPT2 can be trained on the latest articles on Internet to better understand the context what people are talking about.
